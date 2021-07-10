@@ -1,0 +1,10 @@
+black
+flake8
+ipdb
+ipywidgets
+isort
+jupyterlab
+matplotlib
+pylibjpeg
+pylibjpeg-libjpeg
+pytest

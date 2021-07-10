@@ -1,0 +1,15 @@
+# data files
+data/
+
+# python cache and build
+__pycache__/
+dl.egg-info
+
+# notebook cache
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# monitoring
+logs/
