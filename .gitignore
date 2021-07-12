@@ -13,3 +13,6 @@ dl.egg-info
 
 # monitoring
 logs/
+
+# docker
+.Trash-0/
