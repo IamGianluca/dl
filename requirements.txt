@@ -1,11 +1,10 @@
 black
 flake8
-graphviz
+graphviz  # drawing graphs on micrograd notebooks
 ipdb
 ipywidgets
 isort
 jupyterlab
 matplotlib
-pylibjpeg
-pylibjpeg-libjpeg
 pytest
+ruff
