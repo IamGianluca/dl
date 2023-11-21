@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install ffmpeg libsm6 libxext6 python3.10-venv -y
 RUN pip install poetry
 # RUN poetry install
 
-RUN apt install graphviz
+RUN apt install graphviz -y
 
 # setup dev environment
 # TODO: move to devcontainer
