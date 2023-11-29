@@ -1,6 +1,5 @@
 format:
-	isort . && \
-	black -l 79 .
+	ruff format .
 
 build:
 	docker build -t dl .
