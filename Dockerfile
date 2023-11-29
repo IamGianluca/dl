@@ -11,11 +11,13 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install ffmpeg libsm6 libxext6 python3.10-venv -y
 # COPY pyproject.toml /workspace/pyproject.toml
-# COPY poetry.lock /workspace/poetry.lock
 
 # install python packages
-RUN pip install poetry
+# COPY poetry.lock /workspace/poetry.lock
+# RUN pip install poetry
 # RUN poetry install
+COPY requirements.txt /workspace/requirements.txt
+RUN pip install -r requirements.txt
 
 RUN apt install graphviz -y
 
