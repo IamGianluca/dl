@@ -1,9 +1,6 @@
-#black
-#flake8
 graphviz  # to draw graphs on the micrograd notebook
 ipdb
 ipywidgets
-#isort
 jupyterlab
 matplotlib
 pytest
