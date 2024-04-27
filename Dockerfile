@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install ffmpeg libsm6 libxext6 -y
 COPY requirements.txt /workspace/requirements.txt
 RUN pip install -r requirements.txt
 
-# required for visualizations in the tinygrad course
+# required for visualizations on the micrograd notebook
 RUN apt install graphviz -y
 
 # setup dev environment
