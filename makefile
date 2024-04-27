@@ -14,4 +14,4 @@ stop:
 	docker kill fast
 
 jupyter:
-	jupyter lab --ip 0.0.0.0 --port 8888
+	docker exec -it fast /usr/local/bin/jupyter lab --ip 0.0.0.0 --port 8888
